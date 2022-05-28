@@ -1,1 +1,2 @@
 # Paranoia
+![](./files/logo.png)
