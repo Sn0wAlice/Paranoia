@@ -1,0 +1,13 @@
+# Paranoia Help
+-help                 : show help message
+
+# Creating partition
+-c [size] [name]      : create partition (required args)
+
+# Formatting partition
+-f [name] [type]      : format partition (required args)
+-fShow                : show available filesystems
+
+# Zip
+-z [name] [outName]   : zip file (required args)
+-uz [name] [outName]  : unzip file (required args)
