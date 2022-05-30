@@ -11,3 +11,7 @@
 # Zip
 -z [name] [outName]   : zip file (required args)
 -uz [name] [outName]  : unzip file (required args)
+
+# Lock
+-lock [path]          : lock file (required args)
+-unlock [path]        : unlock file (required args)
