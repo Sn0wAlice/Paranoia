@@ -26,5 +26,14 @@ deno run -A main.ts -c 1 test.img -f ext4
 Simple: `sudo mount [imgFile] [mountPoint]`
 > Note that it is a root partition, use `chmod 755` to use it with no-root user
 
+### Encrypt file
+```
+deno run -A main.ts -lock [path]
+```
+### decrypt file
+```
+deno run -A main.ts -unlock [path]
+```
+
 # Authors: 
 - [Alice Snow](https://github.com/Sn0wAlice)
